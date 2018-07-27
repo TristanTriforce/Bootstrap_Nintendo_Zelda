@@ -11,12 +11,14 @@ header{
 nav {
 	position: relative;
 }
+
 a:hover {text-decoration: none;}
 
 .text_color00, a.text_color00:hover{
 	color: #FFF;
 	letter-spacing: .6px
 }	
+
 .text_color01{
 	color: #FFF;
 }	
@@ -24,9 +26,11 @@ a:hover {text-decoration: none;}
 .text_color02, .active {
 	color: #B99F65;
 }
+
 .text_color03{
 	color: #000;
 }
+
 .texte_change{
 	color: #FFF;
 }
@@ -49,12 +53,13 @@ a:hover {text-decoration: none;}
     justify-content: center;
     padding: 0;
 }
-.nav_list a:hover, .nav_list a.active {
+
+.nav_list a:hover, .nav_list a.active{
 	color: #B99F65;
 	transition: color 0.2s ease;
 }
 
-.nav_list li a {
+.nav_list li a{
 	color: #fff;
 
 }
@@ -66,7 +71,7 @@ a:hover {text-decoration: none;}
 	position: relative;
 }
 
-.main-nav_list:before {
+.main-nav_list:before{
 	position: absolute;
     content: '';
     width: 100%;
@@ -77,7 +82,7 @@ a:hover {text-decoration: none;}
     background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.5) 10%, transparent 50%);
 }
 
-.logo-nintendo {
+.logo-nintendo{
     position: absolute;
     right: 10px;
     top: 10%;
@@ -91,7 +96,6 @@ a:hover {text-decoration: none;}
 	padding: 15px 12px 10px;
 	letter-spacing: 2px;
 	z-index: 3;
-
 }
 
 .main-nav_logo-switch{
@@ -107,21 +111,7 @@ a:hover {text-decoration: none;}
 	width: 128px;
 }
 
-.video_zelda01{
-	height: auto;
-	width: 100%;
-	overflow: hidden;
-}
-
-.video_block{
-	box-sizing: border-box;
-	border-top: solid 2px #B99F65;
-	display: grid;
-	width: 100%;
-	position: relative;
-}
-
-.video_block:after{
+.carousel_zelda:after{
 	background: url('https://www.nintendo.fr/games/oms/breath_of_the_wild/img/_shared/divider-black.svg') center center repeat-x;
 	height: 21px;
 	width: 100%;
@@ -153,7 +143,7 @@ video{
 }
 
 .ode_box{
-	font-size: 4.0rem; 	
+	font-size: 4.0rem;
 	border: solid;
 	background: url(https://www.nintendo.fr/games/oms/breath_of_the_wild/img/_shared/blue.jpg);
 	display: inline-grid;
@@ -161,9 +151,8 @@ video{
 	line-height: 1;
 	font-weight: 1;
 	letter-spacing: 2px
-
-
 }
+
 .ode_box:hover{
 	color: #D9CBAB;
 	transition: color 0.2s ease;
@@ -218,14 +207,14 @@ video{
 	align-items: center;
 	width: 100%;
 	margin-bottom: 30px;
-
 }
+
 .blade{
 	display: flex;
 	width: 100%;
 	margin: 0;
-
 }
+
 .blade a div {
 	position: absolute;
 	top: 0;
@@ -235,6 +224,7 @@ video{
     background-position: center center;
     background-size: cover;
 }
+
 .ultim_blade {
     max-height: 450px;
     height: 41vw;
@@ -243,6 +233,7 @@ video{
     position: relative;
     overflow: hidden;
 }
+
 .temple_txt{
 	letter-spacing: 2px;
 	transition: transform 0.4s ease, -webkit-transform 0.4s ease;
@@ -252,6 +243,7 @@ video{
     z-index: 1;
     width: 100%;
 }
+
 .temple_txt:after{
 	transform: translateY(80%);
     position: absolute;
@@ -262,6 +254,7 @@ video{
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.35) 80%, transparent 100%);
 }
+
 .temple{
 	background-image: url(https://www.nintendo.fr/games/oms/breath_of_the_wild/img/home/blade--touts-img-1.jpg);
 	height: 450px;
@@ -286,9 +279,11 @@ h3{
 	height: 450px;
 	width: 100%;
 }
+
 .angle_news{
 	padding: 0 15px 0;
 }
+
 .shield_white{
 	width: 100%;
 	max-width: 1140px;
@@ -445,6 +440,7 @@ h2{
 .logo_footer{
 	display: flex;
 }
+
 .text_footer{
 	margin-right: 30px; 
 }
@@ -457,15 +453,14 @@ h2{
 .copyright_nintendo{
 	text-align: center;
 	margin-top: 40px;
-	
 }
+
 li{
 	list-style: none;
 }
 
 .zoom{
-    transition: transform 0.3s; 
-    
+    transition: transform 0.3s;
 }
 
 .zoom:hover{
@@ -473,8 +468,7 @@ li{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 .zoom2{
-    transition: transform 0.5s; 
-    
+    transition: transform 0.5s;
 }
 
 .zoom2:hover{
